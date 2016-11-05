@@ -1,0 +1,32 @@
+{
+    "name": "basicinvoices/basicinvoices-modulemanager",
+    "description": " ",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "zf2",
+        "modulemanager",
+        "db"
+    ],
+    "homepage": "https://github.com/basicinvoices/basicinvoices-modulemanager",
+    "autoload": {
+        "psr-4": {
+            "BasicInvoices\\ModuleManager\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "zendframework/zend-modulemanager": "^2.7.1",
+        "zendframework/zend-stdlib": "^3.0"
+    },
+    "require-dev": {
+        "fabpot/php-cs-fixer": "1.7.*"
+    },
+    "scripts": {
+        "check": [
+            "@cs-check",
+            "@test"
+        ],
+        "cs-check": "php-cs-fixer --version && php-cs-fixer fix -v --diff --dry-run",
+        "cs-fix": "php-cs-fixer fix -v"
+    }
+}

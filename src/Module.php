@@ -1,4 +1,12 @@
 <?php
+/**
+ * Basic Invoices
+ *
+ * @link      http://github.com/basicinvoices
+ * @copyright Copyright (c) 2016 Juan Pedro Gonzalez Gutierrez
+ * @license   http://framework.zend.com/license/new-bsd New BSD License
+ */
+
 namespace BasicInvoices\ModuleManager;
 
 use Zend\ModuleManager\ModuleManagerInterface;
